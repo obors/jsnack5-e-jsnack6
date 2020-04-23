@@ -7,7 +7,7 @@ var numX2 = 0;
 //stampo i numeri fino a 1000
 
 for (var i = 0; i < numX1; i++) {
-  numX2 = 2**i
+  numX2 = Math.pow(2,i)
 
 
   if (numX2 < numX1){
@@ -19,3 +19,14 @@ for (var i = 0; i < numX1; i++) {
 }
 
 //individuate le potenze di 2 si stampa
+// for (var i = 0; i < numX1; i++) {
+//   numX2 = 2**i
+//
+//
+//   if (numX2 < numX1){
+//     console.log(numX2)
+//   }else {
+//     break;
+//   }
+//
+// }
